@@ -1,0 +1,100 @@
+{"title":"LED Flash Macro Ring Light (48 X LED) with 6 Adapter Rings for For Canon/Sony/Nikon/Sigma Lenses","manufacturer":"Neewer Electronics Accessories","currency":"CAD","price":"35.99"}
+{"title":"Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0-Inch LCD","manufacturer":"Canon Canada","currency":"CAD","price":"199.96"}
+{"title":"Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0-Inch LCD","manufacturer":"Canon Canada","currency":"CAD","price":"209.00"}
+{"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Blue/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"306.24"}
+{"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Blue/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"420.33"}
+{"title":"Genuine Samsung EB575152VU i9000 GalaxyS Battery","manufacturer":"Samsung","currency":"CAD","price":"13.99"}
+{"title":"Canon PowerShot A1200 (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"129.99"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"88.00"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"129.92"}
+{"title":"Canon PowerShot ELPH 300 HS (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"259.99"}
+{"title":"Canon PowerShot ELPH 300 HS (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"289.00"}
+{"title":"Canon PowerShot SD1400IS 14.1 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"313.33"}
+{"title":"Kodak EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.00"}
+{"title":"Kodak EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.95"}
+{"title":"Nikon EN-EL9a 1080mAh Ultra High Capacity Li-ion Battery Pack for Nikon D40, D40x, D60, D3000, & D5000 Digital SLR Cameras","manufacturer":"Nikon","currency":"CAD","price":"29.75"}
+{"title":"Canon NB-7L Lithium-Ion Battery for G10, G11, G12 Cameras","manufacturer":"Canon","currency":"CAD","price":"44.99"}
+{"title":"Canon LP-E6 Battery for Canon EOS 5D Mark II 7D LPE6","manufacturer":"Canon","currency":"CAD","price":"54.88"}
+{"title":"PENTAX Optio WG-1 GPS 14 MP Rugged Waterproof Digital Camera with 5X Optical Zoom, 2.7-inch LCD and GPS Funtionality (Green )","manufacturer":"Pentax Canada","currency":"CAD","price":"387.33"}
+{"title":"Canon PowerShot ELPH 300 HS (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"253.24"}
+{"title":"Canon PowerShot ELPH 300 HS (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"402.46"}
+{"title":"Canon PowerShot SD1400IS 14.1 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"288.99"}
+{"title":"Genuine Canon BP-511A Battery Pack for EOS 5D, 50D, 40D, 30D, 20D, 10D, D. Rebel","manufacturer":"Canon","currency":"CAD","price":"39.88"}
+{"title":"Olympus PEN E-PL1 12.3MP Live MOS Micro Four Thirds Interchangeable Lens Digital Camera with 14-42mm f/3.5-5.6 Zuiko Digital Zoom Lens (Black)","manufacturer":"Olympus Canada","currency":"CAD","price":"429.98"}
+{"title":"Olympus PEN E-PL1 12.3MP Live MOS Micro Four Thirds Interchangeable Lens Digital Camera with 14-42mm f/3.5-5.6 Zuiko Digital Zoom Lens (Black)","manufacturer":"Olympus Canada","currency":"CAD","price":"598.97"}
+{"title":"Canon PowerShot A1200 (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"124.99"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"105.39"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"150.97"}
+{"title":"Olympus LI-42B Battery for SP Series","manufacturer":"Olympus","currency":"CAD","price":"29.99"}
+{"title":"Panasonic Lumix DMC-FH25 16.1 MP Digital Camera with x LEICA Optical Zoom and 2.7-Inch LCD (Red)","manufacturer":"Panasonic","currency":"CAD","price":"210.73"}
+{"title":"Canon PowerShot A3100IS 12.1 MP Digital Camera with 4x Optical Image Stabilized Zoom and 2.7-Inch LCD (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"131.87"}
+{"title":"Canon PowerShot A3100IS 12.1 MP Digital Camera with 4x Optical Image Stabilized Zoom and 2.7-Inch LCD (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"159.99"}
+{"title":"Panasonic Lumix DMW-BCG10 for Lumix ZS7, ZS5, TZ10, TZ8 Series","manufacturer":"Panasonic","currency":"CAD","price":"39.99"}
+{"title":"Panasonic Lumix DMC-TS3 12.1 MP Waterproof Digital Camera with 4.6x Optical Zoom and 2.7-Inch LCD, GPS, 3D  (Orange)","manufacturer":"Panasonic","currency":"CAD","price":"399.99"}
+{"title":"Panasonic Lumix DMC-TS3 12.1 MP Waterproof Digital Camera with 4.6x Optical Zoom and 2.7-Inch LCD, GPS, 3D  (Orange)","manufacturer":"Panasonic","currency":"CAD","price":"419.95"}
+{"title":"Sony T Series DSC-T99 14.1 Megapixel DSC Camera with Super HAD CCD Image Sensor (Silver)","manufacturer":"Sony","currency":"CAD","price":"196.87"}
+{"title":"Sony T Series DSC-T99 14.1 Megapixel DSC Camera with Super HAD CCD Image Sensor (Silver)","manufacturer":"Sony","currency":"CAD","price":"245.99"}
+{"title":"Canon PowerShot SD4000IS 10 MP CMOS Digital Camera with 3.8x Optical Zoom and f/2.0 Lens (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"372.59"}
+{"title":"PENTAX Optio WG-1 14 MP Rugged Waterproof Digital Camera with 5X Optical Zoom and 2.7-inch LCD (Black)","manufacturer":"Pentax Canada","currency":"CAD","price":"349.99"}
+{"title":"PENTAX Optio WG-1 14 MP Rugged Waterproof Digital Camera with 5X Optical Zoom and 2.7-inch LCD (Black)","manufacturer":"Pentax Canada","currency":"CAD","price":"437.97"}
+{"title":"Olympus Stylus Tough 8010 14MP Digital Camera with 5x Wide Angle Zoom and 2.7 inch LCD (Black)","manufacturer":"Olympus Canada","currency":"CAD","price":"299.99"}
+{"title":"Olympus Stylus Tough 8010 14MP Digital Camera with 5x Wide Angle Zoom and 2.7 inch LCD (Black)","manufacturer":"Olympus Canada","currency":"CAD","price":"365.95"}
+{"title":"Nikon EN-EL5 1100mAh Ultra High Capacity Li-ion Battery Pack for Nikon P100, P90, P80, P6000","manufacturer":"Nikon","currency":"CAD","price":"19.99"}
+{"title":"Lithium-Ion Battery for Canon NB-4L Digital Camera","manufacturer":"Canon","currency":"CAD","price":"1.08"}
+{"title":"Fujifilm FinePix JV100 12 MP Digital Camera with 3x Optical Zoom and 2.7-Inch LCD (Black)","manufacturer":"Fujifilm Canada","currency":"CAD","price":"85.87"}
+{"title":"Fujifilm FinePix JV100 12 MP Digital Camera with 3x Optical Zoom and 2.7-Inch LCD (Black)","manufacturer":"Fujifilm Canada","currency":"CAD","price":"134.99"}
+{"title":"Canon PowerShot ELPH 100 HS (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"229.99"}
+{"title":"Canon PowerShot ELPH 100 HS (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"314.78"}
+{"title":"Canon PowerShot SD1300IS 12 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"159.99"}
+{"title":"Canon PowerShot SD1300IS 12 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"175.13"}
+{"title":"Panasonic Lumix DMC-TS3 12.1 MP Waterproof Digital Camera with 4.6x Optical Zoom and 2.7-Inch LCD, GPS, 3D  (Red)","manufacturer":"Panasonic","currency":"CAD","price":"399.99"}
+{"title":"PENTAX Optio RZ10 14 MP Digital Camera with 10X Optical Zoom and 2.7-inch LCD","manufacturer":"Pentax Canada","currency":"CAD","price":"159.99"}
+{"title":"Olympus Stylus Tough 3000 12 MP Digital Camera with 3.6x Wide Angle Zoom and 2.7-inch LCD (Blue)","manufacturer":"Olympus Canada","currency":"CAD","price":"161.87"}
+{"title":"Olympus Stylus Tough 3000 12 MP Digital Camera with 3.6x Wide Angle Zoom and 2.7-inch LCD (Blue)","manufacturer":"Olympus Canada","currency":"CAD","price":"211.29"}
+{"title":"Canon PowerShot ELPH 300 HS (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"264.00"}
+{"title":"Canon PowerShot ELPH 300 HS (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"274.99"}
+{"title":"Canon PowerShot ELPH 100 HS (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"209.99"}
+{"title":"Canon PowerShot ELPH 100 HS (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"314.75"}
+{"title":"Canon PowerShot SD1400IS 14.1 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Pink)","manufacturer":"Canon Canada","currency":"CAD","price":"168.00"}
+{"title":"Canon PowerShot SD1400IS 14.1 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Pink)","manufacturer":"Canon Canada","currency":"CAD","price":"239.99"}
+{"title":"Canon PowerShot SD3500IS 14.1 MP Digital Camera with 3.5-Inch Touch Panel LCD and 5x Ultra Wide Angle Optical Image Stabilized Zoom (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"279.99"}
+{"title":"Canon PowerShot SD3500IS 14.1 MP Digital Camera with 3.5-Inch Touch Panel LCD and 5x Ultra Wide Angle Optical Image Stabilized Zoom (Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"344.87"}
+{"title":"Canon PowerShot SD1300IS 12.1 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"159.99"}
+{"title":"Olympus Stylus Tough 3000 12 MP Digital Camera with 3.6x Wide Angle Zoom and 2.7-inch LCD (Red)","manufacturer":"Olympus Canada","currency":"CAD","price":"134.98"}
+{"title":"Olympus Stylus Tough 3000 12 MP Digital Camera with 3.6x Wide Angle Zoom and 2.7-inch LCD (Red)","manufacturer":"Olympus Canada","currency":"CAD","price":"221.30"}
+{"title":"Olympus FE-4020 14 MP Digital Camera with 4x Wide Angle Zoom and 2.7-inch LCD (Grey)","manufacturer":"Olympus Canada","currency":"CAD","price":"109.99"}
+{"title":"Olympus FE-4020 14 MP Digital Camera with 4x Wide Angle Zoom and 2.7-inch LCD (Grey)","manufacturer":"Olympus Canada","currency":"CAD","price":"122.39"}
+{"title":"Canon PowerShot SD4000IS 10 MP CMOS Digital Camera with 3.8x Optical Zoom and f/2.0 Lens (White)","manufacturer":"Canon Canada","currency":"CAD","price":"229.99"}
+{"title":"Canon PowerShot SD4000IS 10 MP CMOS Digital Camera with 3.8x Optical Zoom and f/2.0 Lens (White)","manufacturer":"Canon Canada","currency":"CAD","price":"372.59"}
+{"title":"Olympus Stylus Tough 8010 14MP Digital Camera with 5x Wide Angle Zoom and 2.7 inch LCD (Silver)","manufacturer":"Olympus Canada","currency":"CAD","price":"302.87"}
+{"title":"Olympus Stylus Tough 8010 14MP Digital Camera with 5x Wide Angle Zoom and 2.7 inch LCD (Silver)","manufacturer":"Olympus Canada","currency":"CAD","price":"365.95"}
+{"title":"Nikon ML-L3 Wireless Remote Control for Nikon P7000, D3000, D40, D40x, D50, D5000, D60, D70, D7000, D70s, D80 & D90 Digital SLR Cameras","manufacturer":"Nikon","currency":"CAD","price":"22.19"}
+{"title":"Kodak EasyShare M530 12 MP Digital Camera with 3x Wide Angle Optical Zoom and 2.7 Inch LCD (Blue)","manufacturer":"Kodak","currency":"CAD","price":"75.00"}
+{"title":"Kodak EasyShare M530 12 MP Digital Camera with 3x Wide Angle Optical Zoom and 2.7 Inch LCD (Blue)","manufacturer":"Kodak","currency":"CAD","price":"105.37"}
+{"title":"Fujifilm Finepix S1800 12 Mega-Pixel, 18x Long Zoom Digital Camera","manufacturer":"Fujifilm CA","currency":"CAD","price":"206.98"}
+{"title":"Fujifilm Finepix S1800 12 Mega-Pixel, 18x Long Zoom Digital Camera","manufacturer":"Fujifilm CA","currency":"CAD","price":"256.77"}
+{"title":"Olympus T-100 12MP Digital Camera with 3x Optical Zoom and 2.4 inch LCD (Red)","manufacturer":"Olympus Canada","currency":"CAD","price":"87.86"}
+{"title":"Panasonic Lumix DMC-FS25 12MP Digital Camera with 5x MEGA Optical Image Stabilized Zoom and 3 inch LCD (Gold)","manufacturer":"Panasonic","currency":"CAD","price":"179.08"}
+{"title":"Panasonic Lumix DMC-FS25 12MP Digital Camera with 5x MEGA Optical Image Stabilized Zoom and 3 inch LCD (Gold)","manufacturer":"Panasonic","currency":"CAD","price":"217.64"}
+{"title":"Olympus Stylus Tough 3000 12 MP Digital Camera with 3.6x Wide Angle Zoom and 2.7-inch LCD (Green)","manufacturer":"Olympus Canada","currency":"CAD","price":"154.98"}
+{"title":"Olympus Stylus Tough 3000 12 MP Digital Camera with 3.6x Wide Angle Zoom and 2.7-inch LCD (Green)","manufacturer":"Olympus Canada","currency":"CAD","price":"223.97"}
+{"title":"Fujifilm FinePix HS10 10 MP CMOS Digital Camera with 30x Wide Angle Optical Zoom and 3-Inch LCD (Black)","manufacturer":"Fujifilm Canada","currency":"CAD","price":"398.00"}
+{"title":"Fujifilm FinePix HS10 10 MP CMOS Digital Camera with 30x Wide Angle Optical Zoom and 3-Inch LCD (Black)","manufacturer":"Fujifilm Canada","currency":"CAD","price":"410.69"}
+{"title":"PENTAX Optio RZ10 14 MP Digital Camera with 10X Optical Zoom and 2.7-inch LCD (Purple)","manufacturer":"Pentax Canada","currency":"CAD","price":"159.99"}
+{"title":"Canon PowerShot ELPH 100 HS (Pink)","manufacturer":"Canon Canada","currency":"CAD","price":"224.99"}
+{"title":"Canon PowerShot ELPH 100 HS (Pink)","manufacturer":"Canon Canada","currency":"CAD","price":"314.78"}
+{"title":"Kodak EasyShare M580 14 MP Digital Camera with 8x Wide Angle Optical Zoom and 3.0 Inch LCD (Blue)","manufacturer":"Kodak","currency":"CAD","price":"129.99"}
+{"title":"Kodak EasyShare M580 14 MP Digital Camera with 8x Wide Angle Optical Zoom and 3.0 Inch LCD (Blue)","manufacturer":"Kodak","currency":"CAD","price":"157.73"}
+{"title":"Canon PowerShot SD1300IS 12 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Pink)","manufacturer":"Canon Canada","currency":"CAD","price":"159.99"}
+{"title":"Canon PowerShot SD1300IS 12 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Pink)","manufacturer":"Canon Canada","currency":"CAD","price":"177.24"}
+{"title":"Canon PowerShot SD4000IS 10 MP CMOS Digital Camera with 3.8x Optical Zoom and f/2.0 Lens (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"239.99"}
+{"title":"Canon PowerShot SD4000IS 10 MP CMOS Digital Camera with 3.8x Optical Zoom and f/2.0 Lens (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"372.59"}
+{"title":"Battery EN-EL9 ENEL9 For Nikon D3X D40 D40X D60 D3000 D5000 Digital Cameras","manufacturer":"Neewer Electronics Accessories","currency":"CAD","price":"3.67"}
+{"title":"Nikon D3100 w/18-55mm VR","manufacturer":"Nikon","currency":"CAD","price":"749.95"}
+{"title":"Panasonic Lumix DMC-FH25 16.1 MP Digital Camera with x LEICA Optical Zoom and 2.7-Inch LCD (Violet)","manufacturer":"Panasonic","currency":"CAD","price":"210.73"}
+{"title":"Pentax Optio I10 12.1 MP Digital Camera with 5x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Pearl White)","manufacturer":"Pentax Canada","currency":"CAD","price":"186.29"}
+{"title":"Olympus TG-310 14 MP Digital Camera with 3.6x Optical Zoom, Waterproof, Shockproof, Freezer Proof (Blue)","manufacturer":"Olympus Canada","currency":"CAD","price":"199.99"}
+{"title":"Olympus TG-310 14 MP Digital Camera with 3.6x Optical Zoom, Waterproof, Shockproof, Freezer Proof (Blue)","manufacturer":"Olympus Canada","currency":"CAD","price":"233.73"}
+{"title":"Panasonic Lumix DMC-ZR3 14.1 MP Digital Camera with 8x Optical Image Stabilized Zoom and 2.7-Inch LCD (Blue)","manufacturer":"Panasonic","currency":"CAD","price":"299.99"}
+{"title":"Olympus VG-320 14 MP Superwide 12.5x Zoom (24mm), 3\" LCD, Metal Body, HD Movie, Magic Filters, iAuto, Dual Image Stabilization, AF Tracking (Red)","manufacturer":"Olympus Canada","currency":"CAD","price":"199.99"}
+{"title":"Olympus VG-320 14 MP Superwide 12.5x Zoom (24mm), 3\" LCD, Metal Body, HD Movie, Magic Filters, iAuto, Dual Image Stabilization, AF Tracking (Red)","manufacturer":"Olympus Canada","currency":"CAD","price":"248.97"}

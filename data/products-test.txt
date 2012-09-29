@@ -1,0 +1,20 @@
+{"product_name":"Sony_Cyber-shot_DSC-W310","manufacturer":"Sony","model":"DSC-W310","family":"Cyber-shot","announced-date":"2010-01-06T19:00:00.000-05:00"}
+{"product_name":"Samsung_TL240","manufacturer":"Samsung","model":"TL240","announced-date":"2010-01-05T19:00:00.000-05:00"}
+{"product_name":"Nikon-s6100","manufacturer":"Nikon","model":"S6100","family":"Coolpix","announced-date":"2011-02-08T19:00:00.000-05:00"}
+{"product_name":"Samsung_TL220","manufacturer":"Samsung","model":"TL220","announced-date":"2009-08-12T20:00:00.000-04:00"}
+{"product_name":"Fujifilm-T205","manufacturer":"Fujifilm","model":"T205","family":"FinePix","announced-date":"2011-02-15T19:00:00.000-05:00"}
+{"product_name":"Casio_QV-5000SX","manufacturer":"Casio","model":"QV-5000SX","announced-date":"1998-04-19T20:00:00.000-04:00"}
+{"product_name":"Canon_Digital_IXUS_130_IS","manufacturer":"Canon","model":"130 IS","family":"Digital IXUS","announced-date":"2010-02-07T19:00:00.000-05:00"}
+{"product_name":"Leica_Digilux","manufacturer":"Leica","model":"Digilux","announced-date":"1998-09-15T20:00:00.000-04:00"}
+{"product_name":"Fujifilm_FinePix_1500","manufacturer":"Fujifilm","model":"1500","family":"FinePix","announced-date":"1999-05-17T20:00:00.000-04:00"}
+{"product_name":"Sony-HX100v","manufacturer":"Sony","model":"DSC-HX100v","family":"Cybershot","announced-date":"2011-02-01T19:00:00.000-05:00"}
+{"product_name":"Fujifilm-Z900EXR","manufacturer":"Fujifilm","model":"Z900EXR","family":"Finepix","announced-date":"2011-04-04T20:00:00.000-04:00"}
+{"product_name":"Olympus_mju_9010","manufacturer":"Olympus","model":"mju 9010","announced-date":"2010-01-06T19:00:00.000-05:00"}
+{"product_name":"Canon_PowerShot_SD980_IS","manufacturer":"Canon","model":"SD980 IS","family":"PowerShot","announced-date":"2009-08-18T20:00:00.000-04:00"}
+{"product_name":"Canon-IXUS-310HS","manufacturer":"Canon","model":"310 HS","family":"IXUS","announced-date":"2011-02-06T19:00:00.000-05:00"}
+{"product_name":"Casio_Exilim_EX-H20G","manufacturer":"Casio","model":"EX-H20g","family":"Exilim","announced-date":"2010-09-19T20:00:00.000-04:00"}
+{"product_name":"Olympus-T-110","manufacturer":"Olympus","model":"T110","announced-date":"2010-08-17T20:00:00.000-04:00"}
+{"product_name":"Kodak_EasyShare_M575","manufacturer":"Kodak","model":"M575","family":"EasyShare","announced-date":"2010-01-04T19:00:00.000-05:00"}
+{"product_name":"Toshiba_PDR-M60","manufacturer":"Toshiba","model":"PDR-M60","announced-date":"2000-02-02T19:00:00.000-05:00"}
+{"product_name":"Sony_Alpha_NEX-3","manufacturer":"Sony","model":"NEX-3","family":"Alpha","announced-date":"2010-05-10T20:00:00.000-04:00"}
+{"product_name":"Casio_Exilim_EX-Z29","manufacturer":"Casio","model":"EX-Z29","family":"Exilim","announced-date":"2009-03-02T19:00:00.000-05:00"}
