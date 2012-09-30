@@ -47,17 +47,20 @@ class Stringsets
 	}
 }
 
-
-# Sortable
-class Sortable
+# state
+class GetSet
 {
+	public $opt;
+	
+	function __construct($opt)
+	{
+		$this->opt = $opt;
+		return true;
+	}
 
 	# state
-	function state()
+	function state($opt)
 	{
-		# call options
-		$opt = Options::opt();
-
 		# test for "-s" or "--state" settings
 		if (isset($opt["s"])) $state = $opt["s"];
 		elseif (isset($opt["state"])) $state = $opt["state"];
@@ -72,6 +75,11 @@ class Sortable
 		return $state;
 
 	}
+}
+
+# Sortable
+class Sortable
+{
 
 	# output
 	function output()
@@ -85,26 +93,23 @@ class Sortable
 	
 	function products()
 	{
-		# call options
-		$opt = Options::opt();
-
-		# call state
-		$state = Sortable::state();
+		# call GetSet
+		$path = new GetSet(Options::opt());
 
 		# test for "-p" or "--products" settings
-		if (isset($opt["p"])) $path = $opt["p"];
-		elseif (isset($opt["products"])) $path = $opt["products"];
-		else $path = "";
+		if (isset($opt["p"])) $full = $opt["p"];
+		elseif (isset($opt["products"])) $full = $opt["products"];
+		else $full = "";
 
 		# set path for products file
-		empty($path) ? $products = "data/products" . $state . ".txt" : $products = $path;
+		empty($full) ? $products = "data/products" . $path->state($path->opt) . ".txt" : $products = $path;
 
 		# get product file
 		$products = file_get_contents($products);
 		// $products = json_decode($products,1);
 
 		# cleanup
-		unset($opt,$state,$path);
+		unset($full,$path);
 
 		return $products;
 	}
@@ -112,19 +117,16 @@ class Sortable
 	# listings
 	function listings()
 	{
-		# call options
-		$opt = Options::opt();
-
-		# call state
-		$state = Sortable::state();
+		# call GetSet
+		$path = new GetSet(Options::opt());
 
 		# test for "-l" or "--listings" settings
-		if (isset($opt["l"])) $path = $opt["l"];
-		elseif (isset($opt["listings"])) $path = $opt["listings"];
-		else $path = "";
+		if (isset($opt["l"])) $full = $opt["l"];
+		elseif (isset($opt["listings"])) $full = $opt["listings"];
+		else $full = "";
 
 		# set path for listings file
-		empty($path) ? $listings = "data/listings" . $state . ".txt" : $listings = $path;
+		empty($full) ? $listings = "data/listings" . $path->state($path->opt) . ".txt" : $listings = $path;
 
 
 		$listings = file_get_contents($listings);
@@ -132,7 +134,7 @@ class Sortable
 		foreach($listings as &$l) $l = json_decode($l,1);
 
 		# cleanup
-		unset($opt,$state,$path);
+		unset($full,$path);
 
 		return $listings;
 
@@ -143,6 +145,6 @@ class Sortable
 
 $run = new Sortable();
 
-echo $run->listings();
+echo $run->products();
 
 ?>
