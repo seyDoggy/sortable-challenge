@@ -58,21 +58,82 @@ class GetSet
 		return true;
 	}
 
+	# testOpt
+	public function testOpt($opt,$short,$long)
+	{
+		# test for "-short" or "--long" settings
+		if (isset($opt[$short])) $option = $opt[$short];
+		elseif (isset($opt[$long])) $option = $opt[$long];
+		else $option = "";
+
+		return $option;
+	}
+
 	# state
-	function state($opt)
+	public function state()
 	{
 		# test for "-s" or "--state" settings
-		if (isset($opt["s"])) $state = $opt["s"];
-		elseif (isset($opt["state"])) $state = $opt["state"];
-		else $state = "";
+		static $short = "s";
+		static $long = "state";
 
-		# cleanup
-		unset($opt);
-
+		# get testOpt
+		$state = $this->testOpt(Options::opt(),$short,$long);
+		
 		# set test state
-		$state == 1 || $state === "test" ? $state = "-test" : $state = ""; 
+		$state == 1 || $state === "test" ? $state = "-test" : $state = "";
+
+		# clean up
+		unset($short,$long); 
 
 		return $state;
+
+	}
+
+	# path
+	public function file($type,$short,$long)
+	{
+		# get testOpt
+		$full = $this->testOpt(Options::opt(),$short,$long);
+
+		# get state
+
+		# set path for file
+		empty($full) ? $file = "data/" . $type . $this->state() . ".txt" : $file = $full;
+
+		$file = file_get_contents($file);
+
+		return $file;
+	}
+
+	# products
+	function products()
+	{
+		$type = "products";
+		$short = "p";
+		$long = "products";
+		# call GetSet
+		$products = new $this(Options::opt());
+		$products = $products->file($type,$short,$long);
+
+		// $products = json_decode($products,1);
+
+		return $products;
+	}
+
+	# listings
+	function listings()
+	{
+		$type = "listings";
+		$short = "l";
+		$long = "listings";
+		# call GetSet
+		$listings = new $this(Options::opt());
+		$listings = $listings->file($type,$short,$long);
+
+//		$listings = explode("\n", $listings);
+//		foreach($listings as &$l) $l = json_decode($l,1);
+
+		return $listings;
 
 	}
 }
@@ -91,60 +152,13 @@ class Sortable
 
 	}
 	
-	function products()
-	{
-		# call GetSet
-		$path = new GetSet(Options::opt());
-
-		# test for "-p" or "--products" settings
-		if (isset($opt["p"])) $full = $opt["p"];
-		elseif (isset($opt["products"])) $full = $opt["products"];
-		else $full = "";
-
-		# set path for products file
-		empty($full) ? $products = "data/products" . $path->state($path->opt) . ".txt" : $products = $path;
-
-		# get product file
-		$products = file_get_contents($products);
-		// $products = json_decode($products,1);
-
-		# cleanup
-		unset($full,$path);
-
-		return $products;
-	}
-
-	# listings
-	function listings()
-	{
-		# call GetSet
-		$path = new GetSet(Options::opt());
-
-		# test for "-l" or "--listings" settings
-		if (isset($opt["l"])) $full = $opt["l"];
-		elseif (isset($opt["listings"])) $full = $opt["listings"];
-		else $full = "";
-
-		# set path for listings file
-		empty($full) ? $listings = "data/listings" . $path->state($path->opt) . ".txt" : $listings = $path;
-
-
-		$listings = file_get_contents($listings);
-		$listings = explode("\n", $listings);
-		foreach($listings as &$l) $l = json_decode($l,1);
-
-		# cleanup
-		unset($full,$path);
-
-		return $listings;
-
-	}
+	
 	
 }
 
 
-$run = new Sortable();
+$run = new GetSet();
 
-echo $run->products();
+echo $run->listings();
 
 ?>
