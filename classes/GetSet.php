@@ -1,8 +1,23 @@
 <?php
 
-# state
+/*
+
+CLASS: GetSet
+
+This class gets input files and sets output files
+by analyzing the options passed in on the command
+line. 
+
+*/
 class GetSet
 {
+	/*
+
+	Define the options variable and instantiate
+	a new Options object when a new GetSet object
+	is instantiated.
+
+	*/
 	public $opt;
 	
 	function __construct()
@@ -11,7 +26,18 @@ class GetSet
 		return true;
 	}
 
-	# state
+	/*
+
+	METHOD: state
+
+	This method is for test runs only.
+	It looks for the use of -s or 
+	--state flags and returns a value 
+	to be inserted into the file string.
+
+	It's only useful if using test files.
+
+	*/
 	public function state()
 	{
 		# test for "-s" or "--state" settings
@@ -25,10 +51,17 @@ class GetSet
 		$state == 1 || $state === "test" ? $state = "-test" : $state = "";
 
 		return $state;
-
 	}
 
-	# path
+	/*
+
+	METHOD: file
+
+	This method either gets the input files
+	or initiates the output file based on 
+	the passed in parameters.
+
+	*/
 	public function file($type,$short,$long,$out)
 	{
 		# get testOpt
@@ -37,6 +70,7 @@ class GetSet
 		# set path for file
 		empty($file) ? $file = "data/" . $type . $this->state() . ".txt" : $file = $file;
 
+		# import or export
 		if (isset($out) && $out === true) {
 			define('OUTPUT_FILE', $file);
 			$file = file_put_contents($file, '');
@@ -48,35 +82,50 @@ class GetSet
 		return $file;
 	}
 
-	# products
+	/*
+
+	METHOD: products
+
+	This method sets up some parameters
+	for retrieving the products file.
+
+	*/
 	function products()
 	{
 		$type = "products";
 		$short = "p";
 		$long = "products";
 		$out = false;
-		# call GetSet
-		$products = new $this();
-		$products = $products->file($type,$short,$long,$out);
 
-		return $products;
+		return $this->file($type,$short,$long,$out);;
 	}
 
-	# listings
+	/*
+
+	METHOD: listings
+
+	This method sets up some parameters
+	for retrieving the listings file.
+
+	*/
 	function listings()
 	{
 		$type = "listings";
 		$short = "l";
 		$long = "listings";
 		$out = false;
-		# call GetSet
-		$listings = new $this();
-		$listings = $listings->file($type,$short,$long,$out);
 
-		return $listings;
+		return $this->file($type,$short,$long,$out);
 	}
 
-	# results
+	/*
+
+	METHOD: results
+
+	This method sets up some parameters
+	for outputting the products file.
+
+	*/
 	function results()
 	{
 
@@ -84,9 +133,8 @@ class GetSet
 		$short = "o";
 		$long = "output";
 		$out = true;
-		# call GetSet
-		$results = new $this();
-		$results = $results->file($type,$short,$long,$out);
+
+		return $this->file($type,$short,$long,$out);
 
 	}
 }

@@ -1,9 +1,24 @@
 <?php
 
-# Options
+/*
+
+CLASS: Options
+
+This class sets and tests 
+the options parameters for 
+use in the command line.
+
+*/
 class Options
 {
-	# setOpt
+	/*
+
+	METHOD: setOpt
+
+	This method sets up parameters
+	for use in the command line.
+
+	*/
 	function setOpt()
 	{
 		$shortopts  = "s::"; // optional state - boolean or test (true) - defaults to false
@@ -21,7 +36,15 @@ class Options
 		return $options = getopt($shortopts, $longopts);
 	}
 
-	# testOpt
+	/*
+
+	METHOD: testOpt
+
+	This metthod tests to see what 
+	options were passed in the 
+	command line.
+
+	*/
 	function testOpt($opt,$short,$long)
 	{
 		# test for "-short" or "--long" settings

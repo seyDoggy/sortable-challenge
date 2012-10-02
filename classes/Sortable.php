@@ -1,7 +1,20 @@
 <?php 
-# Sortable
+/*
+
+CLASS: Sortable
+
+This is where the matching goes on.
+
+*/
 class Sortable
 {
+	/*
+
+	Define all the variables and instantiate 
+	some object goodness when Sortable is 
+	instantiated.
+
+	*/
 	public $GetSet;
 	public $Stringsets;
 	public $output;
@@ -19,31 +32,45 @@ class Sortable
 		$this->results = $this->GetSet->results();
 	}
 
+
+	/*
+
+	METHOD: sort
+
+	This is it. This is the method that 
+	does all the work. It's really slow 
+	right now given the massive size of 
+	the files. I have no other ideas right 
+	now though.
+
+	*/
 	public function sort()
 	{
-		// decode json string for each lisitng
+		# turn each line in the listings into an array
 		foreach($this->listings as &$l) $l = json_decode($l, true);
 		
-		// read in products
+		# iterate through the products file
 		foreach($this->products as $p) {
-			// decode json string for each product
+			# turn each line in the products into an array
 			$p = json_decode($p, true);
 
-			// initialize product in output
+			# initialize findings in output file
 			$this->output[$p['product_name']] = array(
 				'product_name' => $p['product_name'],
 				'listings' => array()
 			);
 
-			/* {
+			/* Example of a product
+			{
 			"product_name":"Sony_Cyber-shot_DSC-W310",
 			"manufacturer":"Sony",
 			"model":"DSC-W310",
 			"family":"Cyber-shot",
 			"announced-date":"2010-01-06T19:00:00.000-05:00"
-			} */
+			}
+			*/
 
-			// Hardcore
+			# if manufacture, family and model aren't empty
 			if (!empty($p['manufacturer'])
 				&& !empty($p['family'])
 				&& !empty($p['model'])) {
@@ -52,13 +79,14 @@ class Sortable
 				$model = $this->Stringsets->makeRegex($p['model']);
 				$family = $this->Stringsets->makeRegex($p['family']);
 
+				# iterate through each line of the listings file
 				foreach($this->listings as $i => $l) {
 					if (preg_match($manufacturer, $l['title'])
 						&& preg_match($family, $l['title'])
 						&& preg_match($model, $l['title'])) {
 
 						$this->output[$p['product_name']]['listings'][] = $l;// add match to output
-						// unset($this->listings[$i]);// remove matched listing from future searches
+						unset($this->listings[$i]);// remove matched listing from future searches
 					}
 				}
 			}
@@ -69,6 +97,5 @@ class Sortable
 
 		exit(0);
 	}
-
 }
 ?>
