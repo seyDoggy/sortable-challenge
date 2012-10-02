@@ -23,10 +23,11 @@ class Sortable
 	{
 		// decode json string for each lisitng
 		foreach($this->listings as &$l) $l = json_decode($l, true);
-
+		
 		// read in products
-		foreach($this->products as $j => &$p) {
-			$p = json_decode($p, true);// decode json string
+		foreach($this->products as $p) {
+			// decode json string for each product
+			$p = json_decode($p, true);
 
 			// initialize product in output
 			$this->output[$p['product_name']] = array(
@@ -34,49 +35,32 @@ class Sortable
 				'listings' => array()
 			);
 
-			// search for ideal match first - manufacturer + family + full model
-			if (empty($p['manufacturer']) || empty($p['model']) || empty($p['family'])) continue;
+			/* {
+			"product_name":"Sony_Cyber-shot_DSC-W310",
+			"manufacturer":"Sony",
+			"model":"DSC-W310",
+			"family":"Cyber-shot",
+			"announced-date":"2010-01-06T19:00:00.000-05:00"
+			} */
 
-			$manufacturer = $this->Stringsets->makeRegex($p['manufacturer']);
-			$model = $this->Stringsets->makeRegex($p['model']);
-			$family = $this->Stringsets->makeRegex($p['family']);
+			// Hardcore
+			if (!empty($p['manufacturer'])
+				&& !empty($p['family'])
+				&& !empty($p['model'])) {
+				
+				$manufacturer = $this->Stringsets->makeRegex($p['manufacturer']);
+				$model = $this->Stringsets->makeRegex($p['model']);
+				$family = $this->Stringsets->makeRegex($p['family']);
 
-			foreach($this->listings as $i => $l) {
-				if (!preg_match($manufacturer, $l['manufacturer']) || !preg_match($model, $l['title']) || !preg_match($family, $l['title'])) continue;
+				foreach($this->listings as $i => $l) {
+					if (preg_match($manufacturer, $l['title'])
+						&& preg_match($family, $l['title'])
+						&& preg_match($model, $l['title'])) {
 
-				$this->output[$p['product_name']]['listings'][] = $l;// add match to output
-				unset($this->listings[$i]);// remove matched listing from future searches
-			}
-		}
-
-		// 2nd pass - look for manufacturer + full model from listings that haven't been matched yet
-		foreach($this->products as $p) {
-			if (empty($p['manufacturer']) || empty($p['model'])) continue;
-
-			$manufacturer = $this->Stringsets->makeRegex($p['manufacturer']);
-			$model = $this->Stringsets->makeRegex($p['model']);
-
-			foreach($this->listings as $i => $l) {
-				if (!preg_match($manufacturer, $l['manufacturer']) || !preg_match($model, $l['title'])) continue;
-
-				$this->output[$p['product_name']]['listings'][] = $l;
-				unset($this->listings[$i]);
-			}
-		}
-
-		// 3rd pass - look for partial models - e.g. model is DSC123 but listing has DSC123S
-		// skipped if model is only numbers or only letters (too general - many false positives)
-		foreach($this->products as $p) {
-			if (empty($p['manufacturer']) || empty($p['model']) || is_numeric($p['model']) || !preg_match('/\d/', $p['model'])) continue;
-
-			$manufacturer = $this->Stringsets->makeRegex($p['manufacturer']);
-			$model = $this->Stringsets->makeRegexNoWord($p['model']);
-
-			foreach($this->listings as $i => $l) {
-				if (!preg_match($manufacturer, $l['manufacturer']) || !preg_match($model, $l['title'])) continue;
-
-				$this->output[$p['product_name']]['listings'][] = $l;
-				unset($this->listings[$i]);
+						$this->output[$p['product_name']]['listings'][] = $l;// add match to output
+						// unset($this->listings[$i]);// remove matched listing from future searches
+					}
+				}
 			}
 		}
 
