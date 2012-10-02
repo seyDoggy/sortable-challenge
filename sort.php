@@ -9,8 +9,10 @@ function __autoload($class_name) {
 	require_once 'classes/' . $class_name . '.php';
  }
 
+# instatiate Sortable object
 $run = new Sortable();
 
-echo $run->sort();
+# run it
+$run->sort();
 
 ?>
