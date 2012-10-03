@@ -83,17 +83,25 @@ class Sortable
 				&& !empty($p['manufacturer'])
 				&& !empty($p['model'])) {
 				
-				$product_name = $this->Stringsets->makeRegex($p['product_name']);
-				$manufacturer = $this->Stringsets->makeRegex($p['manufacturer']);
-				$model = $this->Stringsets->makeRegex($p['model']);
+				$product_name = $this->Stringsets->regexify($p['product_name']);
+				$manufacturer = $this->Stringsets->regexify($p['manufacturer']);
+				$model = $this->Stringsets->regexify($p['model']);
+
+				# message
+				echo "Looking for matches to \"" . $p['product_name'] . "\"...\n";
+
 				
 				# iterate through each line of the listings file
 				# hardcore pass
 				foreach($this->listings as $i => $l) {
+
 					if (preg_match($manufacturer, $l['manufacturer'])
 						&& preg_match($model, $l['title'])
 						&& (preg_match($product_name, $l['title'])
 							|| preg_match($manufacturer, $l['title']))) {
+						
+						# message						
+						echo "	Line " . $i . ": \"" . $l['title'] . "\"\n";
 						
 						# output results
 						$this->output[$p['product_name']]['listings'][] = $l;
