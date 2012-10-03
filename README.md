@@ -34,7 +34,7 @@ So anyhow, like I said, it starts out pretty nice in the test routines running s
 		$ ./sort.php --products="some/path/products.txt"
 		```
 
-	1.`-l` or `--listings` flag with a path:
+	1. `-l` or `--listings` flag with a path:
 
 		```bash
 		# with the -l flag
