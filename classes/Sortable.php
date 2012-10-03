@@ -68,25 +68,38 @@ class Sortable
 			"family":"Cyber-shot",
 			"announced-date":"2010-01-06T19:00:00.000-05:00"
 			}
+
+			Example of a listing
+			{
+			"title":"LED Flash Macro Ring Light (48 X LED) with 6 Adapter Rings for For Canon/Sony/Nikon/Sigma Lenses",
+			"manufacturer":"Neewer Electronics Accessories",
+			"currency":"CAD",
+			"price":"35.99"
+			}
 			*/
 
 			# if manufacture, family and model aren't empty
-			if (!empty($p['manufacturer'])
-				&& !empty($p['family'])
+			if (!empty($p['product_name'])
+				&& !empty($p['manufacturer'])
 				&& !empty($p['model'])) {
 				
+				$product_name = $this->Stringsets->makeRegex($p['product_name']);
 				$manufacturer = $this->Stringsets->makeRegex($p['manufacturer']);
 				$model = $this->Stringsets->makeRegex($p['model']);
-				$family = $this->Stringsets->makeRegex($p['family']);
-
+				
 				# iterate through each line of the listings file
+				# hardcore pass
 				foreach($this->listings as $i => $l) {
-					if (preg_match($manufacturer, $l['title'])
-						&& preg_match($family, $l['title'])
-						&& preg_match($model, $l['title'])) {
+					if (preg_match($manufacturer, $l['manufacturer'])
+						&& preg_match($model, $l['title'])
+						&& (preg_match($product_name, $l['title'])
+							|| preg_match($manufacturer, $l['title']))) {
+						
+						# output results
+						$this->output[$p['product_name']]['listings'][] = $l;
 
-						$this->output[$p['product_name']]['listings'][] = $l;// add match to output
-						unset($this->listings[$i]);// remove matched listing from future searches
+						# unset line to skip on next loop (if applicable)
+						unset($this->listings[$i]);
 					}
 				}
 			}
